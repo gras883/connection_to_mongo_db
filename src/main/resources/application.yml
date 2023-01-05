@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.PostgreSQLDialect
+  DataSource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/order_management
+    username: postgres
+    password: postgres
+  Data:
+    mongodb:
+      uri: mongodb://localhost:27017/OrderDetails
